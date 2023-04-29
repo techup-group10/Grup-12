@@ -54,8 +54,11 @@ th, td {
     text-align: center;
     padding: 8px;
 }
-
-th {
+th { 
+    background-color: red;
+    color: white;
+}
+th:hover  {
     background-color: #094074;
     color: white;
 }
@@ -68,4 +71,35 @@ th {
 .festa {
     font-size: 50px;
     color: white;
+
 }
+#btn{ background-color: red;
+    color: black;
+    padding: 20px 15px 20px 15px ;
+    margin-top:50px;
+}
+
+   #li-tag{ margin: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+   }
+
+   #ngjyra{
+    background-color: rgb(4, 0, 255);
+   }
+   tr:nth-child(even){
+    background-color: blue;
+    }
+    tr:nth-child(odd){
+    background-color: rgb(128, 109, 0);
+    }
+    #foto1:hover {
+        width: 300px;
+        height: 500px;
+        margin-left: 300px;
+        margin-top: 600px;
+      }
+      #header {
+        margin-left: 300px;
+        margin-top: 200px;
+      }
